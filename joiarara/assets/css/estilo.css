@@ -41,7 +41,7 @@ footer {
 
 a{
 text-decoration: none;
-color: rgb(255, 255, 255);
+color: #fff;
 }
 
 button{
@@ -57,7 +57,29 @@ button{
     text-align: center; 
 }
 
-.imagem {
-    text-align: center;
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+    font-family: Arial, sans-serif; 
+    border: 1px solid black; 
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); 
 }
-
+  
+th {
+    background-color: #f2f2f2; 
+    color: #333; 
+    padding: 10px; 
+    text-align: left; 
+    border-bottom: 1px solid black;
+}
+   
+td {
+    padding: 10px;
+    text-align: left; 
+    border-bottom: 1px solid black; 
+}
+  
+tr:nth-child(even) {
+    background-color: black; 
+}
